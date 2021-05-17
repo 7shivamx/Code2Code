@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Code2Code</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+			<section id='wrapper'>
+				<nav id="menu">
+					<section id="logo"><h2><b>Code2Code</b></h2></section>
+					<section id="buttonDiv"><button id="runButton"><b>Run</b></button></section>
+					<ul id="toggles">
+						<li class="active" id="html"><h5>HTML</h5></li>
+						<li id="css"><h5>CSS</h5></li>
+						<li id="javascript"><h5>JavaScript</h5></li>
+						<li id="result" class="active"><h5>Result</h5></li>
+					</ul>
+				</nav>
+				<section class="codeContainer" id="htmlContainer">
+					<textarea id="htmlCode" placeholder="HTML"></textarea>
+				</section>
+				<section class="codeContainer" id="cssContainer">
+					<textarea id="cssCode" placeholder="CSS"></textarea>
+				</section>
+				<section class="codeContainer" id="javascriptContainer">
+					<textarea id="javascriptCode" placeholder="JavaScript"></textarea>
+				</section>
+				<section class="codeContainer" id="resultContainer">
+					<iframe id="inlineFrame"></iframe>
+				</section>
+			</section>
+		</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>
